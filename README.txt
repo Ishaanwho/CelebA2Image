@@ -1,19 +1,3 @@
-----------------------------------------
-files
-----------------------------------------
-
-celeba_dialog
-├── celeba_caption
-│   └── captions.json
-├── celeba_request
-│   ├── request_annotated.json
-│   ├── request.json
-│   └── request.txt
-├── combined_annotation.txt
-├── metadata.txt
-├── test_attr_list.txt
-├── train_attr_list.txt
-└── val_attr_list.txt
 
 - captions.json: captions for each image
 - request_annotated.json: editing request for each image, with hard label annotation
@@ -25,11 +9,7 @@ celeba_dialog
 - test_attr_list.txt: the test set annotation (19,960 images)
 
 ----------------------------------------
-Image Download Link
-----------------------------------------
-
-https://drive.google.com/drive/folders/0B7EVK8r0v71pWEZsZE9oNnFzTm8?resourcekey=0-5BR16BdXnb8hVj6CNHKzLg
-
+DEMO LINK: https://huggingface.co/spaces/isxhxan/CelebA
 ----------------------------------------
 Attributes and Annotations
 ----------------------------------------
