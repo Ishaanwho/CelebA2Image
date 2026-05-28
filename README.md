@@ -27,7 +27,7 @@ Built with a **Conditional DCGAN**, trained on the **CelebA dataset**, and deplo
 
 ---
 
-# 🧠 What This Project Actually Is
+# NOTE:
 
 This project is **NOT** a large-scale diffusion-based text-to-image model like:
 
@@ -88,7 +88,6 @@ The textual component acts as a **semantic interface** for attribute manipulatio
 
 # ✨ Features
 
-* 🧠 Natural language attribute parsing
 * 🎭 Attribute-guided face synthesis
 * ⚡ GPU accelerated inference
 * 🖼️ Modern Gradio web GUI
@@ -100,18 +99,6 @@ The textual component acts as a **semantic interface** for attribute manipulatio
 * 🧩 Modular PyTorch architecture
 * 🚀 Hugging Face Spaces deployment
 * 📈 Future-ready semantic synthesis pipeline
-
----
-
-# 🖼️ Example Prompts
-
-```text
-young smiling woman with bangs
-man with glasses and no beard
-happy young person
-smiling person wearing glasses
-elderly man with beard
-```
 
 ---
 
@@ -207,31 +194,12 @@ and outputs:
 | 4     | Aged        |
 | 5     | Elderly     |
 
----
-
-# 🧠 Prompt Parsing System
-
-The application includes a lightweight semantic parser that maps language into attributes.
-
-### Example mappings
-
-| Keywords                 | Attribute    |
-| ------------------------ | ------------ |
-| bangs, fringe            | Bangs        |
-| glasses, specs, eyewear  | Eyeglasses   |
-| smiling, happy, grinning | Smiling      |
-| young, youthful          | Young        |
-| beard, facial hair       | No_Beard = 0 |
-
-This creates an intuitive natural-language interface for controllable generation.
 
 ---
 
 # ⚡ Inference Pipeline
 
 ```text
-Text Prompt
-      ↓
 Semantic Attribute Parser
       ↓
 Attribute Conditioning Vector
@@ -366,6 +334,7 @@ generate_face(
 
 # 📈 Future Improvements
 
+* Add descriptive textual synthesis 
 * Higher resolution synthesis
 * Diffusion-assisted refinement
 * Better semantic parsing
@@ -375,7 +344,6 @@ generate_face(
 * Real-ESRGAN integration
 * GFPGAN enhancement pipeline
 * LoRA fine-tuning
-* Advanced textual synthesis analysis
 * Improved semantic attribute extraction
 * Full multimodal conditioning
 
@@ -395,7 +363,7 @@ generate_face(
 
 Contributions are welcome.
 
-Feel free to:
+Feel free to fork and:
 
 * improve the architecture
 * add new attributes
